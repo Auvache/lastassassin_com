@@ -43,6 +43,8 @@ p {
     background-size: 74px;
     top: 0;
     font-family: 'Syncopate';
+    color: #ffffff;
+    font-weight: 700;
     background: linear-gradient(180deg, rgba(219,0,0,1) 0%, rgba(84,3,3,1) 94%);
     padding: 8px 4px 12px;
     width: 100%;

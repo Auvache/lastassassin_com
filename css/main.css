@@ -47,8 +47,8 @@ p {
     font-weight: 700;
     background: linear-gradient(180deg, rgba(219,0,0,1) 0%, rgba(84,3,3,1) 94%);
     padding: 8px 4px 12px;
-    width: 100%;
-    max-width: 1492px;
+    width: 1492px;
+    max-width: 100%;
     z-index: 10;
     text-align: center;
     border-bottom: 1px solid #88959c;

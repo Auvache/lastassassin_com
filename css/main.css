@@ -1,8 +1,6 @@
 /* main body styles */
-html {
-    scroll-behavior: smooth;
-}
-
+html { overflow-y: scroll; scroll-behavior: smooth;}
+body {}
 body {
     color: #313639;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,17 +13,13 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
     color: #313639;
+    font-family: 'Syncopate';
 }
 
 h1 {
-    font-size: 24px;
-    margin: 64px auto 40px;
-    text-align: center;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px; letter-spacing: 4px; padding: 14px; text-align: center;
 }
 
 h2 {
@@ -40,11 +34,12 @@ p {
     font-size: 18px;
     margin: 24px 0;
     line-height: 32px;
+    color: #313639;
 }
 
 /* navigation */
 .nav {
-    background: url(/img/logo.png);
+    /* background: url(/img/logo.png); */
     background-repeat: no-repeat;
     background-size: 74px;
     top: 0;
@@ -142,7 +137,6 @@ p {
     position: relative;
 }
 
-#links,
 #announcements {
     padding: 40px 0;
     width: 90%;
@@ -199,4 +193,37 @@ p {
     p {
         font-size: 16px;
     }
+}
+
+/* assassin styles */
+
+#page-wrap { 
+    background: linear-gradient(180deg, rgba(219,0,0,1) 0%, rgba(84,3,3,1) 94%);
+}
+
+.btn {
+	width: 224px;
+    margin: 12px auto;
+    background-color: #000000;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+input[type="text"] {
+	width: 224px;
+    margin: 12px auto;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: #000000;
+	text-decoration: none;
+	font-family: 'Syncopate';
+	border: none;
+}
+
+img.menu {
+	max-width: 100px;
+	margin: 48px auto 0;
 }

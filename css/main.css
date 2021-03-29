@@ -15,10 +15,11 @@ h5,
 h6 {
     color: #313639;
     font-family: 'Syncopate';
+    text-align: center;
 }
 
 h1 {
-    font-size: 32px; letter-spacing: 4px; padding: 14px; text-align: center;
+    font-size: 32px; letter-spacing: 4px; padding: 0 14px; text-align: center; margin-top: 0;
 }
 
 h2 {
@@ -36,6 +37,13 @@ p {
     color: #313639;
 }
 
+.center-align {
+    text-align: center;
+}
+
+.buffer {
+    padding: 120px 0;
+}
 /* navigation */
 .nav {
     /* background: url(/img/logo.png); */
@@ -141,7 +149,7 @@ p {
     position: relative;
 }
 
-#announcements {
+.content {
     padding: 40px 0;
     width: 90%;
     max-width: 1000px;
@@ -229,5 +237,60 @@ input[type="text"] {
 
 img.menu {
 	max-width: 100px;
-	margin: 48px auto 0;
+	margin: 20px auto 0;
 }
+
+#promote-vid {
+    margin: 40px auto 80px;
+}
+
+/* photo montage */
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  /* div.gallery:hover {
+    border: 1px solid #777;
+  } */
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+  
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
